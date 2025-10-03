@@ -14,6 +14,6 @@ if __name__ == "__main__":
         step=0.85,
         num_workers=8,
         batch_size=32,
-        out_path="sgd_1024_trajs_2.npz"
+        out_path="sgd_1024_trajs_linreg.npz"
     )
     print("Saved to", OUT)
